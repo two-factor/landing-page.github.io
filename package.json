@@ -1,0 +1,40 @@
+{
+  "name": "two-factor.github.io",
+  "version": "1.0.0",
+  "description": "Landing Page for two-factor authentication npm package",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack-dev-server --open",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two-factor/two-factor.github.io.git"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "two-factor",
+    "two-factor-authentication"
+  ],
+  "author": "Sierra Swaby, Daniel Nagano-Gerace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/two-factor/two-factor.github.io/issues"
+  },
+  "homepage": "https://github.com/two-factor/two-factor.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "twilio": "^3.33.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
