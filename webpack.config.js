@@ -14,13 +14,14 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        options: {presets: ['@babel/preset-env', '@babel/preset-react']}
-      }
-    ]
+        options: { presets: ['@babel/preset-env', '@babel/preset-react'] },
+      },
+    ],
   },
   output: {
-    path: path.resolve(__dirname, 'dist/'),
+    path: path.join(__dirname, '/dist'),
     publicPath: '/dist/',
-    filename: 'bundle.js'
-  }
+    filename: 'bundle.js',
+  },
 }
+;
