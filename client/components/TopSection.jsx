@@ -1,15 +1,18 @@
 import React from 'react';
 import DivCLI from '../styled-components/DivCLI.jsx';
-import pCLI from '../styled-components/pCLI.jsx';
+import PCLI from '../styled-components/PCLI.jsx';
+import TopSection$ from '../styled-components/TopSection$.jsx';
+import Spacer from '../styled-components/Spacer.jsx';
 
 
 const TopSection = () => {
   return (
-    <div>
+    <TopSection$>
+      <Spacer />
       <DivCLI>
-        <pCLI>~$ npm install --save two-factor</pCLI>
+        <PCLI>~$ npm install --save two-factor</PCLI>
       </DivCLI>
-    </div>
+    </TopSection$>
   )
 }
 

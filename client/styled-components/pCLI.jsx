@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-const pCLI = styled.p`
-  color: #00ff00;
+const PCLI = styled.p`
+  color: #fff;
+  font-family: sans-serif;
 `
 
-export default pCLI;
+export default PCLI;
