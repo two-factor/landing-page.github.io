@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-const P = styled.p`
-    font-size: 15px;
+const P$ = styled.p`
     color: #909090;
     font-style: sans-serif;
 `
 
-export default H1
+export default P$;
