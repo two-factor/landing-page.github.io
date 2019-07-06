@@ -2,11 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './index.js',
+  entry: path.join(__dirname, '/index.js'),
   mode: process.env.NODE_ENV,
   devServer: {
-    publicPath: '/build',
-    port: 8080,
+    publicPath: '/dist',
+    hot: true,
   },
   module: {
     rules: [
@@ -23,5 +23,5 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'bundle.js',
   },
-}
-;
+};
+
