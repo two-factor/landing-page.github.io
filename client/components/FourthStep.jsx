@@ -5,7 +5,7 @@ import LeftCodeDiv from '../styled-components/LeftCodeDiv.jsx';
 import RightText from '../styled-components/RightText.jsx';
 import StepsDiv from '../styled-components/FirstStep$.jsx';
 
-const SecondStep = () => {
+const FourthStep = () => {
     return (
         <StepsDiv>
             <LeftCodeDiv>
@@ -19,4 +19,4 @@ const SecondStep = () => {
     )
 }
 
-export default SecondStep;
+export default FourthStep;
