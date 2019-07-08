@@ -5,8 +5,11 @@ const AppStyle = styled.div`
   margin: 0;
   outline: 0;
   border: 0;
-  padding: 0;
-//   color: #fff;
+  // margin-left: 5%;
+  // margin-right: 5%;
+  border-style: solid;
+  font-family: sans-serif;
+  // color: #fff;
 `
 
 export default AppStyle;

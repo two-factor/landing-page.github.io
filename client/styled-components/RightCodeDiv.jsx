@@ -17,6 +17,7 @@ const RightCodeDiv = styled.div`
   align-self: center;
   line-height: 2;
   font-size: 15px;
+//   color: #000;
 `;
 
 export default RightCodeDiv;

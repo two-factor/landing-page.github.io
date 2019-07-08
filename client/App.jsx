@@ -2,6 +2,7 @@ import React from 'react';
 import AppStyle from './styled-components/AppStyle.jsx';
 import NavBar from './components/NavBar.jsx';
 import TopSection from './components/TopSection.jsx';
+import Spacer from './styled-components/Spacer.jsx';
 import FirstStep from './components/FirstStep.jsx';
 import SecondStep from './components/SecondStep.jsx';
 import ThirdStep from './components/ThirdStep.jsx';

@@ -7,6 +7,7 @@ const TopSection$ = styled.section`
   align-items: center;
   height: 65%;
   width: 100%;
+  margin-top: 5%;
 `
 
 export default TopSection$;
