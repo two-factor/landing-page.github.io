@@ -6,8 +6,7 @@ const StepsDiv = styled.div`
 //   border-style: solid;
 //   border-width: 1px;
   height: 200px;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 6%;
 `
 
 export default StepsDiv;

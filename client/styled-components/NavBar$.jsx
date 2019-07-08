@@ -6,8 +6,8 @@ const NavBar$ = styled.section`
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: center;
-  // background-color: rgba(255,0,255,0.5);
+  // justify-content: center;
+  // background-color: #909090;
   // border: 5px solid rgba(255, 0, 255, 0.7);
   // border-radius: 15px;
   // box-shadow: 0px 15px rgba(155, 0, 155, 0.7);

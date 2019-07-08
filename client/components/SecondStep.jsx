@@ -3,7 +3,7 @@ import H2 from '../styled-components/H2.jsx';
 import P from '../styled-components/P$.jsx';
 import LeftCodeDiv from '../styled-components/LeftCodeDiv.jsx';
 import RightText from '../styled-components/RightText.jsx';
-import StepsDiv from '../styled-components/FirstStep$.jsx';
+import StepsDiv from '../styled-components/StepsDiv$.jsx';
 
 const SecondStep = () => {
     return (
@@ -13,7 +13,7 @@ const SecondStep = () => {
             </LeftCodeDiv>
             <RightText>
                 <h2>Create your verification service.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
             </RightText>
         </StepsDiv>
     )

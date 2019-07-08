@@ -11,6 +11,7 @@ const CodeDiv = styled.div`
   padding-left: 15px;
   align-items: center;
   align-self: center;
+  margin-top: 10%;
 `
 
 export default CodeDiv;

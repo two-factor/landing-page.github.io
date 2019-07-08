@@ -5,17 +5,17 @@ import TopSection from './components/TopSection.jsx';
 import FirstStep from './components/FirstStep.jsx';
 import SecondStep from './components/SecondStep.jsx';
 import ThirdStep from './components/ThirdStep.jsx';
+import FourthStep from './components/FourthStep.jsx';
 
 const App = () => {
   return (
     <AppStyle>
       <NavBar />
       <TopSection />
-      <p>yo yo pleawe got hot loadingse</p>
-      <p>Hello World</p>
       <FirstStep />
       <SecondStep />
       <ThirdStep />
+      <FourthStep />
     </AppStyle>
   )
 }
