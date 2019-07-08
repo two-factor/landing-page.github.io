@@ -9,9 +9,6 @@ module.exports = {
   mode: process.env.NODE_ENV,
   devServer: {
     publicPath: '/dist',
-    proxy: {
-      '/img': 'http://localhost:3000',
-    },
     hot: true,
   },
   module: {
