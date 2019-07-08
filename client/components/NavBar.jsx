@@ -7,12 +7,10 @@ import NavLink from '../styled-components/NavLink.jsx';
 
 const NavBar = (props) => {
   function scroll(id) {
-    const top = document.querySelector(`#${id}`).offsetTop;
-    const offset = document.querySelector('#NavBar').offsetHeight;
-    const target = top - offset;
+    const top = document.querySelector(`#${id}`).offsetTop - document.querySelector('#NavBar').offsetHeight;
 
     window.scrollTo({
-      top: target,
+      top,
       behavior: 'smooth',
     });
   }
