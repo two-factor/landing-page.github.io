@@ -4,10 +4,10 @@
   "description": "Landing Page for two-factor authentication npm package",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development webpack-dev-server --open --mode development & nodemon server/server.js",
-    "start": "export NODE_ENV=development; nodemon server.js",
-    "test": "npm test"
+    "build": "webpack --mode production",
+    "dev": "NODE_ENV=development webpack-dev-server --open --mode development & npm start",
+    "start": "nodemon server/server.js",
+    "dev2": "concurrently \"set NODE_ENV=development& npm start\" \"webpack-dev-server --open --mode development\""
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "style-loader": "^0.23.1",
     "styled-components": "^4.3.2",
     "twilio": "^3.33.0"
   },
@@ -38,8 +37,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "concurrently": "^4.1.1",
+    "css-loader": "^3.0.0",
     "express": "^4.17.1",
+    "file-loader": "^4.0.0",
     "nodemon": "^1.19.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
