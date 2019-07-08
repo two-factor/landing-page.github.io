@@ -14,15 +14,15 @@ const TopSection = () => {
       </PageTitle$>
       <CodeDiv>
         <p>
-          const twoFactor = require('two-factor');
+          const twoAuth = require('two-auth');
           <br />
-          const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);
+          const client = twoAuth(*ACC_SID*, *AUTH_TOKEN*);
           <br />
-          client.create(*USER_ID*, *PHONE_NUMBER*);
+          await client.create(*USER_ID*, *PHONE_NUMBER*);
           <br />
-          client.send(*USER_ID*);
+          await client.send(*USER_ID*);
           <br />
-          client.verify(*USER_ID*, *SIX_DIGIT_CODE*);
+          await client.verify(*USER_ID*, *SIX_DIGIT_CODE*);
         </p>
       </CodeDiv>
       <br />
@@ -31,7 +31,7 @@ const TopSection = () => {
       <Spacer id="installCode" />
       <p>Run this code inside your terminal to install two-auth.</p>
       <CodeDiv>
-        <p>~$ npm install --save two-factor</p>
+        <p>~$ npm install --save two-auth</p>
       </CodeDiv>
     </TopSection$>
   )

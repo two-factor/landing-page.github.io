@@ -6,17 +6,27 @@ import RightText from '../styled-components/RightText.jsx';
 import StepsDiv from '../styled-components/StepsDiv$.jsx';
 
 const SecondStep = () => {
-    return (
-        <StepsDiv>
-            <LeftCodeDiv>
-                <p>client.create(*USER_ID*, *PHONE_NUMBER*);</p>
-            </LeftCodeDiv>
-            <RightText>
-                <h2>Create your verification service.</h2>
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-            </RightText>
-        </StepsDiv>
-    )
+  return (
+    <StepsDiv>
+      <LeftCodeDiv>
+        <p>
+          client.create(*USER_ID*, *PHONE_NUMBER*)
+          <br />
+          .then(...)
+          <br />
+          .catch((err) => ...);
+        </p>
+      </LeftCodeDiv>
+      <RightText>
+        <h2>2. Create your verification service.</h2>
+        <P>
+          Use the create method to start up a service for a user.
+          <br />
+          The create method is asynchronous. It returns a promise.
+        </P>
+      </RightText>
+    </StepsDiv>
+  )
 }
 
 export default SecondStep;
