@@ -9,11 +9,21 @@ const FourthStep = () => {
     return (
         <StepsDiv>
             <LeftCodeDiv>
-                <p>client.verify(*USER_ID*, *SIX_DIGIT_CODE*)</p>
+                <p>
+                  client.verify(*USER_ID*, *SIX_DIGIT_CODE*)
+                  <br />
+                  .then((valid) => ...)
+                  <br />
+                  .catch((err) => ...);
+                </p>
             </LeftCodeDiv>
             <RightText>
-                <h2>Verify your user.</h2>
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
+                <h2>4. Verify your user.</h2>
+                <P>
+                  Verify takes in the USER_ID and the CODE that user received.
+                  <br />
+                  Verify returns a promise that resolves to true if that code is valid.
+                </P>
             </RightText>
         </StepsDiv>
     )
