@@ -5,10 +5,13 @@ const NavBar$ = styled.section`
   top: 0;
   height: 100px;
   width: 100%;
-  background-color: rgba(255,0,255,0.5);
-  border: 5px solid rgba(255, 0, 255, 0.7);
-  border-radius: 15px;
-  box-shadow: 0px 15px rgba(155, 0, 155, 0.7);
+  display: flex;
+  // justify-content: center;
+  background-color: rgba(47, 58, 67, .9);
+  opacity: 100%;
+  // border: 5px solid rgba(255, 0, 255, 0.7);
+  // border-radius: 15px;
+  // box-shadow: 0px 15px rgba(155, 0, 155, 0.7);
 `
 
 export default NavBar$;

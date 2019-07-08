@@ -7,7 +7,7 @@ import NavBar$ from '../styled-components/NavBar$.jsx';
 const NavBar = () => {
   return (
     <NavBar$>
-      <H1>TWO-FACTOR</H1>
+      <H1>TWO-AUTH</H1>
     </NavBar$>
   )
 }

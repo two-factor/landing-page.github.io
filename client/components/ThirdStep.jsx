@@ -5,18 +5,18 @@ import RightCodeDiv from '../styled-components/RightCodeDiv.jsx';
 import LeftText from '../styled-components/LeftText.jsx';
 import StepsDiv from '../styled-components/StepsDiv$.jsx';
 
-const FirstStep = () => {
+const ThirdStep = () => {
     return (
         <StepsDiv>
             <LeftText>
-                <h2>Initialize two-auth.</h2>
-                <P>Created a Twilio account? Check. <br></br>Now require two-auth into your application.</P>
+                <h2>Send your user an SMS code.</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
             </LeftText>
             <RightCodeDiv>
-                <p>const twoFactor = require('two-factor'); <br></br>const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);</p>
+                <p>client.send(*USER_ID*);</p>
             </RightCodeDiv>
         </StepsDiv>
     )
 }
 
-export default FirstStep;
+export default ThirdStep;
