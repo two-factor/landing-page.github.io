@@ -33,14 +33,9 @@ const TopSection = () => {
         {/* <p>const twoFactor = require('two-factor'); <br></br>const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);</p> */}
       </CodeDiv>
       <br></br>
-<<<<<<< HEAD
       <Button>Two-Auth on NPM</Button>
-      <Spacer />
-=======
-      <Button>NPM</Button>
       <Spacer id="installCode"/>
       <p>Run this code inside your terminal to install two-auth.</p>
->>>>>>> dev
       <CodeDiv>
         <p>~$ npm install --save two-factor</p>
       </CodeDiv>
