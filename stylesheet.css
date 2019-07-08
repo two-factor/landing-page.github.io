@@ -1,4 +1,8 @@
+/* @import url('https://fonts.googleapis.com/css?family=Krub'); */
+
 body {
     /* background: #0B1C26; */
     margin: 0 auto;
+    font-family: 'Questrial';
+    font-weight: 100;
 }
