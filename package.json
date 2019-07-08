@@ -6,7 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development webpack-dev-server --open --mode development & nodemon server/server.js",
-    "start": "export NODE_ENV=development; nodemon server.js",
+    "start": "export NODE_ENV=development; nodemon server/server.js",
     "test": "npm test"
   },
   "repository": {
