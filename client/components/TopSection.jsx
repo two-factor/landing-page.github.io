@@ -12,8 +12,11 @@ const TopSection = () => {
   return (
     <TopSection$>
       {/* <Spacer /> */}
-      <PageTitle$>
+      {/* <PageTitle$>
         Two-Factor Authentication
+      </PageTitle$> */}
+      <PageTitle$>
+      Simplifying the process of implementing two-factor SMS authentication for your application one step at a time.
       </PageTitle$>
       <CodeDiv>
         <p>
@@ -25,12 +28,12 @@ const TopSection = () => {
         <br></br>
         client.send(*USER_ID*);
         <br></br>
-        client.verify(*USER_ID*, *SIX_DIGIT_CODE*)
+        client.verify(*USER_ID*, *SIX_DIGIT_CODE*);
         </p>
         {/* <p>const twoFactor = require('two-factor'); <br></br>const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);</p> */}
       </CodeDiv>
       <br></br>
-      <Button>NPM</Button>
+      <Button>Two-Auth on NPM</Button>
       <Spacer id="installCode"/>
       <p>Run this code inside your terminal to install two-auth.</p>
       <CodeDiv>

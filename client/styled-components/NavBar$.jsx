@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const NavBar$ = styled.section`
   position: sticky;
   top: 0;
-  height: 100px;
+  height: 80px;
   width: 100%;
   display: grid;
   grid-template-columns: 4fr 0.5fr 0.5fr;

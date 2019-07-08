@@ -2,14 +2,15 @@ import styled from 'styled-components';
 
 const Button = styled.button`
   // border: 1px solid ${props => (props.border || '#2D2E3B')};
-  background-color: ${props => (props.bgColor || '#96A8FF')};
+  background-color: ${props => (props.bgColor || '#292929')};
   border-radius: 5px;
-  width: 10%;
-  height: 40px;
-  font-size: 18px;
+  height: 50px;
+  font-size: 16px;
   outline: none;
   color: #fff;
   margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 `;
 
 export default Button;
