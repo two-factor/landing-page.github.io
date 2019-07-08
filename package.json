@@ -19,29 +19,37 @@
     "two-factor",
     "two-factor-authentication"
   ],
-  "author": "Sierra Swaby, Daniel Nagano-Gerace",
+  "author": "Sierra Swaby, Daniel Nagano-Gerace, Ryan Dang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/two-factor/two-factor.github.io/issues"
   },
   "homepage": "https://github.com/two-factor/two-factor.github.io#readme",
   "dependencies": {
+<<<<<<< HEAD
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
+=======
+>>>>>>> dev
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "style-loader": "^0.23.1",
     "styled-components": "^4.3.2",
-    "twilio": "^3.33.0",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "twilio": "^3.33.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^4.1.1",
     "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }
