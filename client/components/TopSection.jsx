@@ -31,10 +31,8 @@ const TopSection = () => {
       </CodeDiv>
       <br></br>
       <Button>NPM</Button>
-      <Spacer />
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <Spacer id="installCode"/>
+      <p>Run this code inside your terminal to install two-auth.</p>
       <CodeDiv>
         <p>~$ npm install --save two-factor</p>
       </CodeDiv>
