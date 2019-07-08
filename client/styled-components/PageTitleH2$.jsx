@@ -7,6 +7,7 @@ const PageTitle$ = styled.p`
     color: #404040;
     line-height: 1.5;
     width: 65%;
+    margin: 0;
 `
 
 export default PageTitle$;

@@ -5,6 +5,7 @@ const Button = styled.button`
   background-color: ${props => (props.bgColor || '#292929')};
   border-radius: 5px;
   height: 50px;
+  width: 230px;
   font-size: 16px;
   outline: none;
   color: #fff;

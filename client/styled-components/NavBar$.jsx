@@ -4,6 +4,7 @@ const NavBar$ = styled.section`
   position: sticky;
   top: 0;
   height: 70px;
+  padding: 0 auto;
   width: 100%;
   display: grid;
   grid-template-columns: 4fr 0.5fr 0.5fr;

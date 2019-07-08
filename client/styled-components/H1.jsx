@@ -4,8 +4,9 @@ const H1 = styled.h1`
   color: #fff;
   font-family: sans-serif;
   font-size: 30px;
-  align-self: center;
+  margin: 0 auto;
   margin-left: 5%;
+  color: white;
 `;
 
 export default H1;
