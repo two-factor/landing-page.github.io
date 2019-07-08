@@ -11,12 +11,8 @@ import PageTitle$ from '../styled-components/PageTitleH2$.jsx';
 const TopSection = () => {
   return (
     <TopSection$>
-      {/* <Spacer /> */}
-      {/* <PageTitle$>
-        Two-Factor Authentication
-      </PageTitle$> */}
       <PageTitle$>
-      Simplifying the process of implementing two-factor SMS authentication for your application one step at a time.
+      Simplifying two-factor SMS authentication for your application so you can relax.
       </PageTitle$>
       <CodeDiv>
         <p>
@@ -30,10 +26,10 @@ const TopSection = () => {
         <br></br>
         client.verify(*USER_ID*, *SIX_DIGIT_CODE*);
         </p>
-        {/* <p>const twoFactor = require('two-factor'); <br></br>const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);</p> */}
       </CodeDiv>
       <br></br>
       <Button>Two-Auth on NPM</Button>
+      <Button>GitHub ReadMe</Button>
       <Spacer id="installCode"/>
       <p>Run this code inside your terminal to install two-auth.</p>
       <CodeDiv>
