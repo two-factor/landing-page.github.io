@@ -4,6 +4,7 @@ import TopSection$ from '../styled-components/TopSection$.jsx';
 import Spacer from '../styled-components/Spacer.jsx';
 import CodeDiv from '../styled-components/CodeDiv.jsx';
 import PageTitle$ from '../styled-components/PageTitleH2$.jsx';
+import ButtonDiv from '../styled-components/ButtonDiv.jsx';
 
 
 const TopSection = () => {
@@ -26,8 +27,10 @@ const TopSection = () => {
         </p>
       </CodeDiv>
       <br />
-      <Button>Two-Auth on NPM</Button>
-      <Button>GitHub ReadMe</Button>
+      <ButtonDiv>
+      <Button onClick = {() => {window.location.href = "https://www.npmjs.com/package/two-auth"}}>Two-Auth on NPM</Button>
+      <Button onClick = {() => {window.location.href = "https://github.com/two-factor/two-auth"}}>GitHub ReadMe</Button>
+      </ButtonDiv>
       <Spacer id="installCode" />
       <p>Run this code inside your terminal to install two-auth.</p>
       <CodeDiv>

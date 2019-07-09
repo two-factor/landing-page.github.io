@@ -6,3 +6,19 @@ body {
     font-family: 'Questrial';
     font-weight: 100;
 }
+
+footer {
+    background: rgba(47, 58, 67);
+    margin-top: 80px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    padding-right: 5%;
+    font-size: 15px;
+}
