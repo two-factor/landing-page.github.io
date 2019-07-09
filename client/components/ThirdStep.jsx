@@ -9,11 +9,21 @@ const ThirdStep = () => {
     return (
         <StepsDiv>
             <LeftText>
-                <h2>Send your user an SMS code.</h2>
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
+                <h2>3. Send your user an SMS code.</h2>
+                <P>
+                  Send will automatically send a code to the phone number you set in Step 2.
+                  <br />
+                  Send is asynchronous and returns a promise that resolves to the code.
+                </P>
             </LeftText>
             <RightCodeDiv>
-                <p>client.send(*USER_ID*);</p>
+                <p>
+                  client.send(*USER_ID*)
+                  <br />
+                  .then((code) => ...)
+                  <br />
+                  .catch((err) => ...);
+                </p>
             </RightCodeDiv>
         </StepsDiv>
     )

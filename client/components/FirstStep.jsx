@@ -8,11 +8,21 @@ const FirstStep = () => {
   return (
     <StepsDiv id="firstStep" >
       <LeftText>
-        <h2>Initialize two-auth.</h2>
-        <P>Created a Twilio account? Check. <br></br>Now require two-auth into your application.</P>
+        <h2>1. Initialize two-auth.</h2>
+        <P>
+          Created a Twilio account?
+          <br />
+          Now require two-auth into your application.
+          <br />
+          Then pass your Twilio Account SID and Auth Token.
+          </P>
       </LeftText>
       <RightCodeDiv>
-        <p>const twoFactor = require('two-factor'); <br></br>const client = twoFactor(*ACC_SID*, *AUTH_TOKEN*);</p>
+        <p>
+          const twoAuth = require('two-auth');
+          <br />
+          const client = twoAuth(*ACC_SID*, *AUTH_TOKEN*);
+        </p>
       </RightCodeDiv>
     </StepsDiv>
   )
