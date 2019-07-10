@@ -8,6 +8,7 @@ import SecondStep from './components/SecondStep.jsx';
 import ThirdStep from './components/ThirdStep.jsx';
 import FourthStep from './components/FourthStep.jsx';
 import ScrollTopButton from './components/ScrollTopButton.jsx';
+import ButtonDiv from './styled-components/ButtonDiv.jsx';
 
 const App = () => {
   return (
@@ -20,7 +21,6 @@ const App = () => {
         <SecondStep />
         <ThirdStep />
         <FourthStep />
-        <Button>Two-Auth on NPM</Button>
       </AppStyle>
     </div>
   )

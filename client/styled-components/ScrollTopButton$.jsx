@@ -4,6 +4,8 @@ const ScrollTopButton = styled.button`
   position: sticky;
   top: 87%;
   width: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   left: 93%;
   background-color: #292929;
   border-radius: 5px;
